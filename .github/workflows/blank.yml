@@ -1,6 +1,6 @@
 name: blank
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 jobs:
   blank:
     runs-on: ubuntu-latest
