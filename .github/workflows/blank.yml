@@ -1,0 +1,11 @@
+name: blank
+on:
+  workflow-dispatch:
+jobs:
+  blank:
+    runs-on: ubuntu-latest
+    steps:
+      - name: MyCommands
+        run: |
+          echo Hello
+          echo World
